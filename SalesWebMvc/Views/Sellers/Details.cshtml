@@ -1,0 +1,40 @@
+﻿@model IEnumerable<SalesWebMvc.Models.Sellers>
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+
+
+<div>
+    <h4>Seller</h4>
+    <hr />
+    <dl>
+        <dt>@Html.DisplayNameFor(model => model.Name)</dt>
+        <dd>
+            @Html.DisplayNameFor(model => model.Name)
+        </dd>
+    </dl>
+    <dl>
+        <dt>@Html.DisplayNameFor(model => model.Email)</dt>
+        <dd>
+            @Html.DisplayNameFor(model => model.Email)
+        </dd>
+    </dl><dl>
+        <dt>@Html.DisplayNameFor(model => model.BirthDate)</dt>
+        <dd>
+            @Html.DisplayNameFor(model => model.BirthDate)
+        </dd>
+    </dl><dl>
+        <dt>@Html.DisplayNameFor(model => model.BaseSalary)</dt>
+        <dd>
+            @Html.DisplayNameFor(model => model.BaseSalary)
+        </dd>
+    </dl>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn">Edit</a>
+        <a asp-action="Index">Back to List</a>
+    
+
+</div>
