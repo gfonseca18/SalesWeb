@@ -15,12 +15,14 @@
     <None Remove="Models\Enums\" />
     <None Remove="Views\Sellers\" />
     <None Remove="Services\" />
+    <None Remove="Views\SalesRecords\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\ViewModels\" />
     <Folder Include="Models\Enums\" />
     <Folder Include="Views\Sellers\" />
     <Folder Include="Services\" />
+    <Folder Include="Views\SalesRecords\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
